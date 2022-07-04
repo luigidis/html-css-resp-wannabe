@@ -169,7 +169,9 @@ img {
 
 @media (min-width: 769px) and (max-width: 1160px) {
     .container {
-        width: 769px;
+        max-width: 1160px;
+        min-width: 769px;
+        width: auto;
     }
 }
         
