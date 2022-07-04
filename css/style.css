@@ -166,3 +166,10 @@ img {
         font-size: 1.3rem;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1160px) {
+    .container {
+        max-width: 1160px;
+        min-width: 769px;
+    }
+}
