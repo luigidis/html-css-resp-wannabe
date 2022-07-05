@@ -130,16 +130,16 @@ img {
 
  @media (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
  }
 
 @media (max-width: 480px) {
     .container {
-        width: 480px;
+        width: 100%;
     }
     .row {
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: wrap;
     }
     .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
